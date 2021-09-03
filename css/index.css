@@ -66,6 +66,38 @@ p {
     line-height: 1.4;
 }
 
+/* Header Design */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 1%;
+}
+
+.logo {
+
+}
+
+.topnav {
+    display: flex;
+}
+
+.topnav nav {
+    display: flex;
+}
+
+.topnav nav a {
+    text-decoration: none;
+    margin: 15%;
+}
+
+.jumbo {
+    display: flex;
+    justify-content: center;
+    margin: 2%;;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -111,6 +143,8 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+
 
 .bottom-content {
     display: flex;
