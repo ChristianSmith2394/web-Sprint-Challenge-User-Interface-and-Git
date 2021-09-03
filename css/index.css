@@ -68,43 +68,35 @@ p {
 
 /* Header Design */
 
-header {
+.main {
     display: flex;
-    align-items: flex-end;
     justify-content: center;
     margin-top: 1%;
-    width: 100%;
-}
-
-.logo {
-    display: flex;
-    justify-content: center;
-    width: 8%;
 }
 
 .topnav {
+    align-items: flex-end;
+    width: 42%;
     display: flex;
-    justify-content: center;
-    width: 34%;
-    display: flex;
+    justify-content: space-around;
 }
 
 .topnav nav {
     display: flex;
-    justify-content: space-evenly;
+    width: 100%;
+    justify-content: space-around;
 }
 
 .topnav nav a {
     text-decoration: none;
     color: black;
     font-weight: bold;
-    margin: 0 15%;
 }
 
 .jumbo {
     display: flex;
     justify-content: center;
-    margin: 2%;;
+    margin: 1%;
 }
 
 .container {
@@ -297,3 +289,15 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+
+/* About Page */
+
+.bigabout {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+
