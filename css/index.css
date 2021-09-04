@@ -307,6 +307,7 @@ footer nav a {
     justify-content: center;
     width: 42%;
     padding: 0 1%;
+    padding-bottom: 1%;
     border-bottom: dashed black 1px;
 }
 
@@ -316,53 +317,25 @@ footer nav a {
 
 .table {
     display: flex;
-    width: 100%;
-    justify-content: center;
-    border: 2px solid hotpink;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
-.table div {
-    display: flex;
-    width:25%;
-    height:100vh;
-    margin:4% 0;
-    border: 2px solid lime;
-}
-
-.strategy {
-    display: flex;
-    justify-content: space-around;
-    height: auto;
-}
 
 .strategy img {
     display: flex;
-    height: 25vh;
-    width: 25vh;
-    object-fit: cover;
+    justify-content: space-between;
+
 }
 .strategy h2 {
     font-size: 1rem;
 }
 
 .strategy p {
-    display: flex;
-    
+    display: flex;  
     font-size: .8rem;
-}
-
-.bottom {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 42%;
-    padding: 0 1%;
-}
-.end {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 42%;
-    padding: 0 1%;
-    border: 2px solid black;
 }
