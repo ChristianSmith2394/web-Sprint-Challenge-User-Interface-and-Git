@@ -301,3 +301,38 @@ footer nav a {
     margin: 2%;
 }
 
+.container {
+    border: 2px solid black;
+    width: 40%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: auto;
+}
+
+.table {
+    display: flex;
+    flex-flow: row wrap;
+    border: 2px solid hotpink;
+}
+
+.strategy {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+}
+
+.strategy img {
+    display: flex;
+    height: 25vh;
+    width: 25vh;
+    object-fit: cover;
+}
+.strategy h2 {
+    font-size: 1rem;
+}
+
+.strategy p {
+    display: flex;
+    font-size: .8rem;
+}
