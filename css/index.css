@@ -308,7 +308,6 @@ footer nav a {
     width: 42%;
     padding: 0 1%;
     padding-bottom: 1%;
-    border-bottom: dashed black 1px;
 }
 
 .wrap h3 {
@@ -329,6 +328,9 @@ footer nav a {
 .strategy img {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    border-bottom: dashed 1px black;
 
 }
 .strategy h2 {
@@ -338,4 +340,24 @@ footer nav a {
 .strategy p {
     display: flex;  
     font-size: .8rem;
+}
+
+.strategy p {
+    padding: 2% 0;
+    padding-bottom: 2%;
+}
+
+.strategy a {
+    border-radius: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 200px;
+    border: black 2px solid;
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    width: 43%;
+    margin: 0 auto;
 }
