@@ -302,18 +302,31 @@ footer nav a {
 }
 
 .container {
-    border: 2px solid black;
-    width: 40%;
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     justify-content: center;
-    height: auto;
+    width: 42%;
+    padding: 0 1%;
+    border-bottom: dashed black 1px;
+}
+
+.wrap h3 {
+    font-size: 1.5rem;
 }
 
 .table {
     display: flex;
-    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
     border: 2px solid hotpink;
+}
+
+.table div {
+    display: flex;
+    width:25%;
+    height:100vh;
+    margin:4% 0;
+    border: 2px solid lime;
 }
 
 .strategy {
@@ -334,5 +347,22 @@ footer nav a {
 
 .strategy p {
     display: flex;
+    
     font-size: .8rem;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 42%;
+    padding: 0 1%;
+}
+.end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 42%;
+    padding: 0 1%;
+    border: 2px solid black;
 }
